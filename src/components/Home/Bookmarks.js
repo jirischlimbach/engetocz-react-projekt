@@ -1,19 +1,19 @@
 import "./Bookmarks.css"
 import { useState } from "react"
-import bookmarksData from "../../bookmarksData"
+import data from "../../bookmarksData"
 
 const Bookmarks = () => {
-    const [selectedBookmark, setSelectedBookmark] = useState(bookmarksData[0])
+    const [selectedBookmark, setSelectedBookmark] = useState(data[0])
 
     const handleClick = index => {
         console.log(index)
-        setSelectedBookmark(bookmarksData[index])
+        setSelectedBookmark(data[index])
     }
 
     return <section>
         <div>
             {
-                bookmarksData.map((oneBookmark, index) => {
+                data.map((oneBookmark, index) => {
                     return <button onClick={() => handleClick(index)} key={index}>{oneBookmark.heading}</button>
                 })
             }
