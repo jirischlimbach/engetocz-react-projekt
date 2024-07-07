@@ -1,0 +1,9 @@
+.four-cards-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template: auto / repeat(4, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: flex-start;
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 import "./Header.css"
 import { useState, useEffect } from "react"
-import heroImg from "../../img/qr-hero.png"
+import { Link } from "react-router-dom"
+import { BsQrCode } from "react-icons/bs";
 import randomTexts from "../../homepageRandomTexts"
 
 const Header = () => {
@@ -11,11 +12,12 @@ const Header = () => {
     setRandomTextToShow(randomTexts[randomIndex])
   }, [])
 
-  return <header className="section">
+  return <header className="section white-bg">
     <div className="container hero-section">
-      <img src={heroImg} alt="#" className="hero-img" />
+      <BsQrCode className="hero-img" />
       <h1><span className="changing-text">{randomTextToShow}</span> generování QR kódů</h1>
       <h3>Zadejte URL adresu a nechte si vytvořit vlastní QR kód během několika sekund</h3>
+      <Link to="create-qr"><button>Vytvořit QR kód</button></Link>
     </div>
   </header>
 }

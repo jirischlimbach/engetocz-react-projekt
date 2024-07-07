@@ -5,8 +5,10 @@
     text-align: center;
 }
 
-.hero-section img {
-    width: 200px;
+.hero-img {
+    font-size: 150px;
+    color: #22272F;
+    margin-bottom: 20px;
 }
 
 .changing-text {
@@ -16,6 +18,28 @@
 }
 
 .hero-section h3 {
-    margin: 0;
+    margin: 10px 0 0;
     font-weight: 600;
+}
+
+.hero-section button {
+    border: none;
+    background-color: #1F649D;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.hero-section button:hover {
+    background-color: #174f7c;
+    transform: scale(0.95);
+}
+
+.hero-section button:active {
+    transform: scale(0.9);
 }

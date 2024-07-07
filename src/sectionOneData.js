@@ -5,14 +5,14 @@ const sectionOneData = [
     },
     {
         heading: "Rychlé vygenerování",
-        text: "Díky naší rychlé a efektivní technologii můžete generovat QR kódy během několika sekund."
+        text: "Generování QR kódů během několika sekund."
     },
     {
         heading: "Vysoké rozlišení",
-        text: "Každý QR kód je v vysokém rozlišení a zaručuje snadnou čitelnost."
+        text: "QR kódy ve vysokém rozlišení a snadno čitelný."
     },
     {
-        heading: "Bezpečnost na prvním místě",
+        heading: "Vysoká bezpečnost",
         text: "Vaše URL adresy jsou vždy chráněny."
     }
 ]

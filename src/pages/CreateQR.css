@@ -1,0 +1,84 @@
+.qr-generator-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    margin-top: 20px;
+}
+
+.url-form-wrapper,
+.new-qr-wrapper {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 20px;
+    border: 1px solid #174f7c;
+}
+
+.url-form-wrapper {
+    border-right: none;
+}
+
+.url-form-wrapper form {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.url-form-wrapper input {
+    padding: 10px 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: rgb(228, 228, 228);
+    color: #1F649D;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.url-form-wrapper button {
+    border: none;
+    background-color: #1F649D;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.url-form-wrapper button:hover {
+    transform: scale(0.95);
+}
+
+.url-form-wrapper button:active {
+    transform: scale(0.9);
+}
+
+.url-form-wrapper .reset-button {
+    background-color: rgb(202, 0, 0);
+}
+
+.qr-code-square {
+    width: 200px;
+    height: 200px;
+}
+
+.empty-qr-code-place {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #174f7c;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

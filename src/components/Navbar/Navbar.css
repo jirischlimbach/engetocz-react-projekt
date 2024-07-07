@@ -8,6 +8,11 @@ nav {
     color: #fafafa;
 }
 
+nav a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 .nav-links {
     display: flex;
     flex-direction: row;
@@ -17,6 +22,7 @@ nav {
 .nav-links a {
     text-decoration: none;
     color: #fafafa;
+    padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
