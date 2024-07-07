@@ -11,10 +11,12 @@ const Header = () => {
     setRandomTextToShow(randomTexts[randomIndex])
   }, [])
 
-  return <header>
-    <img src={heroImg} alt="#" className="hero-img" />
-    <h1>{randomTextToShow} generování QR kódů</h1>
-    <h3>Zadejte URL adresu a nechte si vytvořit vlastní QR kód během několika sekund</h3>
+  return <header className="section">
+    <div className="container hero-section">
+      <img src={heroImg} alt="#" className="hero-img" />
+      <h1><span className="changing-text">{randomTextToShow}</span> generování QR kódů</h1>
+      <h3>Zadejte URL adresu a nechte si vytvořit vlastní QR kód během několika sekund</h3>
+    </div>
   </header>
 }
 

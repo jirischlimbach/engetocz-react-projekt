@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #20649D;
+    color: #fafafa;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid #fafafa;
+}
+
+.activeLink {
+    font-weight: 500;
+}
+
+.nonactiveLink {
+    font-weight: 400;
+}

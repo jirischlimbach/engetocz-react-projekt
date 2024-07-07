@@ -1,3 +1,21 @@
-.hero-img {
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section img {
     width: 200px;
+}
+
+.changing-text {
+    color: #20649D;
+    padding-bottom: 2px;
+    border-bottom: 4px solid #20649D;
+}
+
+.hero-section h3 {
+    margin: 0;
+    font-weight: 600;
 }

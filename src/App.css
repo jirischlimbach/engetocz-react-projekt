@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+    color: #22272F;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 10px;
+}
+
+.section {
+    padding: 60px 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: rgb(243, 144, 144);
+}

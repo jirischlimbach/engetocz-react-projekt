@@ -6,11 +6,10 @@ const Bookmarks = () => {
     const [selectedBookmark, setSelectedBookmark] = useState(data[0])
 
     const handleClick = index => {
-        console.log(index)
         setSelectedBookmark(data[index])
     }
 
-    return <section>
+    return <section className="section">
         <div>
             {
                 data.map((oneBookmark, index) => {

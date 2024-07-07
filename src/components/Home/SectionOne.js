@@ -4,7 +4,7 @@ import sectionOneData from "../../sectionOneData"
 
 const SectionOne = () => {
     
-  return <section>
+  return <section className="section">
     <h2>Jsme jedničky v generování QR kódů</h2>
     <div>
       {
