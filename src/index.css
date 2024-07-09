@@ -15,11 +15,13 @@ h1 {
     font-size: 36px;
     margin: 20px 0;
     text-align: center;
+    line-height: 180%;
 }
 
 h2 {
     font-size: 28px;
     font-weight: 600;
+    text-align: center;
 }
 
 h3 {

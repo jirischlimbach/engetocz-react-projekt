@@ -13,3 +13,9 @@
         grid-template: 1fr 1fr / 1fr 1fr
     }
 }
+
+@media (max-width: 480px) {
+    .four-cards-grid {
+        grid-template: auto / 1fr;
+    }
+}
