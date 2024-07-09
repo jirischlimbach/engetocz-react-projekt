@@ -82,3 +82,16 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .qr-generator-wrapper {
+        grid-template: 1fr 1fr / 1fr;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .url-form-wrapper {
+        border-right: 1px solid #174f7c;
+        border-bottom: none;
+    }
+}

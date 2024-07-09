@@ -6,3 +6,9 @@
     font-size: 36px;
     color: #20649D;
 }
+
+@media (max-width: 768px) {
+    .benefit-icon {
+        font-size: 30px;
+    }
+}

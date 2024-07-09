@@ -43,3 +43,9 @@
 .hero-section button:active {
     transform: scale(0.9);
 }
+
+@media (max-width: 768px) {
+    .hero-img {
+        font-size: 100px;
+    }
+}
