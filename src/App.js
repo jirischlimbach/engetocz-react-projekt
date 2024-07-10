@@ -1,3 +1,5 @@
+// Jiří Schlimbach, Discord uživatelské jméno: iamjiri97
+
 import "./App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import SharedLayout from "./pages/SharedLayout"
