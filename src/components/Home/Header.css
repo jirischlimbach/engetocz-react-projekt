@@ -22,28 +22,6 @@
     font-weight: 600;
 }
 
-.hero-section button {
-    border: none;
-    background-color: #1F649D;
-    padding: 15px 20px;
-    border-radius: 5px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 40px;
-    cursor: pointer;
-    transition: all 0.1s ease;
-}
-
-.hero-section button:hover {
-    background-color: #174f7c;
-    transform: scale(0.95);
-}
-
-.hero-section button:active {
-    transform: scale(0.9);
-}
-
 @media (max-width: 768px) {
     .hero-img {
         font-size: 100px;

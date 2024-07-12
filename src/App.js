@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import SharedLayout from "./pages/SharedLayout"
 import Home from "./pages/Home"
 import CreateQR from "./pages/CreateQR"
+import ErrorPage from "./pages/ErrorPage"
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
       <Route path="/" element={<SharedLayout />}>
         <Route index element={<Home />} />
         <Route path="/create-qr" element={<CreateQR />} />
+        <Route path="*" element={<ErrorPage />} />
       </Route>
 
     </Routes>

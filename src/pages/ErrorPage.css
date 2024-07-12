@@ -1,0 +1,10 @@
+.error-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#no-margin-top {
+    margin-top: 0;
+}

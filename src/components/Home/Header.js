@@ -17,7 +17,7 @@ const Header = () => {
       <BsQrCode className="hero-img" />
       <h1><span className="changing-text">{randomTextToShow}</span> generování QR kódů</h1>
       <h3>Zadejte URL adresu a nechte si vytvořit vlastní QR kód během několika sekund</h3>
-      <Link to="create-qr"><button>Vytvořit QR kód</button></Link>
+      <Link to="create-qr"><button className="main-button">Vytvořit QR kód</button></Link>
     </div>
   </header>
 }

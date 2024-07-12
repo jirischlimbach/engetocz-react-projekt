@@ -57,11 +57,33 @@ p {
     background: linear-gradient(to bottom, #F4F4F6, #FFFFFF);
 }
 
+.main-button {
+    border: none;
+    background-color: #1F649D;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.main-button:hover {
+    background-color: #174f7c;
+    transform: scale(0.95);
+}
+
+.main-button:active {
+    transform: scale(0.9);
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 28px !important;
     }
-    
+
     h2 {
         font-size: 24px !important;
     }
