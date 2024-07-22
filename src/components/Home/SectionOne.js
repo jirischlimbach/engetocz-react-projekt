@@ -1,6 +1,6 @@
 import "./SectionOne.css"
 import OneBenefit from "./OneBenefit"
-import sectionOneData from "../../sectionOneData"
+import sectionOneData from "./sectionOneData.json"
 
 const SectionOne = () => {
 
@@ -9,9 +9,9 @@ const SectionOne = () => {
       <h2>Jsme jedničky v generování QR kódů</h2>
       <div className="four-cards-grid">
         {
-          sectionOneData.map((oneBenefit, index) => {
+          sectionOneData.map(oneBenefit => {
 
-            return <OneBenefit key={index} {...oneBenefit} />
+            return <OneBenefit key={oneBenefit.id} {...oneBenefit} />
           })
         }
       </div>

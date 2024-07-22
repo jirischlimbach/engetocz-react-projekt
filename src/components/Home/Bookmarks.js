@@ -1,6 +1,6 @@
 import "./Bookmarks.css"
-import { useState, useEffect } from "react"
-import data from "../../bookmarksData"
+import { useState } from "react"
+import data from "./bookmarksData.json"
 
 const Bookmarks = () => {
     const [selectedBookmarkIndex, setSelectedBookmarkIndex] = useState(0)

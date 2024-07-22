@@ -2,9 +2,7 @@ import "./CreateQR.css"
 import { useState } from "react"
 
 const CreateQR = () => {
-    // URL adresa zadaná uživatelem, na kterou bude směřovat QR kód
     const [urlToGenerate, setUrlToGenerate] = useState("")
-    // Získaná URL s QR kódem, která bude sloužit jako src pro img element
     const [imgSrc, setImgSrc] = useState("")
 
     const handleSubmit = e => {

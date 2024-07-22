@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "heading": "Jednoduchost",
+        "text": "Aplikace je navržena tak, aby byla co nejjednodušší na použití."
+    },
+    {
+        "id": 2,        
+        "heading": "Rychlé vygenerování",
+        "text": "Generování QR kódů během několika sekund."
+    },
+    {
+        "id": 3,        
+        "heading": "Vysoké rozlišení",
+        "text": "QR kódy ve vysokém rozlišení a snadno čitelný."
+    },
+    {
+        "id": 4,
+        "heading": "Vysoká bezpečnost",
+        "text": "Vaše URL adresy jsou vždy chráněny."
+    }
+]

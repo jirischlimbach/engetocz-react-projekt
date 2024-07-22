@@ -2,10 +2,12 @@ import "./Header.css"
 import { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
 import { BsQrCode } from "react-icons/bs";
-import randomTexts from "../../homepageRandomTexts"
+
+const randomTexts = ["Snadné", "Rychlé", "Kvalitní", "Bezplatné"]
 
 const Header = () => {
-  const [randomTextToShow, setRandomTextToShow] = useState(null) // Náhodný text, který se při každém obnovení stránky vybere a zobrazí
+  const [randomTextToShow, setRandomTextToShow] = useState(null)
+
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * randomTexts.length)
